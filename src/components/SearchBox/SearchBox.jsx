@@ -13,7 +13,7 @@ const SearchBox = () => {
         Find contacts by name
         <input
           type="text"
-          value={filter || ''}
+          value={filter}
           onChange={e => dispatch(changeFilter(e.target.value))}
           className={s.input}
         />
